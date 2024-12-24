@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- le titre  et l'icone de la page -->
+    <title>Portfolio</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_1280.png"
+      type="image/x-icon"
+    />
+    
+     <!-- ***************************************************************************************** -->
+    
+  </head>
+
+  <body id="home">
+    <!-- barre de navigation -->
+    <header>
+        <nav>
+            <img src="https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_1280.png" alt="maphoto" width="50px" height="50px">
+            <ul>
+                <li ><a href="#home">Accueil</a></li>
+                <li ><a href="#about">A propos</a></li>
+                <li ><a href="#travail">Travail</a></li>
+                <li ><a href="#resume">Resume</a></li>
+                <li ><a href="#contact">Contact</a></li>
+            
+        </nav>
+    </header>
+    <!-- **************************************************** -->
+    <main>
+        <!-- présentation -->
+     <section id="about">
+        <center>
+        <h1>Foulan Elfoulani</h1>
+        <h3>Développeur web Full Stack</h3>
+    </center>
+</section>
+<!-- mes traveaux -->
+     <section id="travail">
+       
+        <h2 >Mes traveaux:</h2>
+        <iframe src="https://www.tayara.tn/fr/" frameborder="0"></iframe>
+        <br><br><br>
+        <iframe src="https://www.boky.tn/" frameborder="0"></iframe>
+       <br><br><br>
+        <iframe src="https://www.tripadvisor.fr/Restaurants-g293758-Tunis_Tunis_Governorate.html" frameborder="0"></iframe>
+     </section>
+     <!-- cv -->
+     <section id="resume">
+        <h2>Je me présente....</h2>
+        <p>je suis un développeur web full stack , expert polyvalent capable de
+          gérer toutes les étapes du développement web, de la conception de
+          l'interface utilisateur (frontend) à la gestion des bases de données
+          et des serveurs (backend). Maîtrisant des technologies telles que
+          HTML, CSS, JavaScript, React, Node.js, et MongoDB, je conçois des
+          applications performantes, intuitives et sécurisées. Grâce à mon
+          savoir-faire, j'assure une parfaite intégration entre les différentes
+          couches d'une application, garantissant une expérience utilisateur
+          fluide et une architecture robuste. Toujours en quête d'innovation, je
+          suis prêt à relever les défis techniques avec efficacité et
+          créativité.
+          <a  href="https://github.com/" target="_blank">Mon CV</a>
+        </p>
+     </section>
+     <section id="contact">
+         <form >
+             <table>
+                 <tr>
+                     <td>
+                         <label for="nom">Nom:</label>
+                         
+                        </td>
+                        <td>
+                        <input type="text" id="nom" placeholder="votre nom svp..." required> 
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <label for="email">Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" placeholder="votre email svp..." required>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="message">Message:</label>
+                        
+                    </td>
+                    <td>
+
+                        <textarea id="message" placeholder="votre message svp..." cols="25" rows="8" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Envoyer">
+
+                    </td>                               
+                </tr>
+            </table>
+        </form>
+     </section>
+    </main>
+    <footer>
+        <p>© 2024 Foulan Elfoulani. Tous droits réservés.</p>
+        <p>Mon email: 
+            <a  href="mailto:foulan@gmail.com">
+            foulan@gmail.com
+        </a>
+        </p>
+    </footer>
+  </body>
+</html>
